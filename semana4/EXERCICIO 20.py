@@ -9,7 +9,7 @@ import random
 def aleatorio(nomesS):         
      return random.choice(nomesS)
 
-print("Digite  os quatro nomes dos componentes do grupo: ")
+print("Digite  os  nomes dos quatro componentes do grupo: ")
 
 
 #os nomes são armazenados em uma variavel
@@ -35,7 +35,7 @@ cont = len(nomesS)
 for i in range(cont):
      #para valor dentro da variavel cont;
      #1 A VARIAVEL NOME IRÁ RECEBER UM DOS NOMES DOS PARTICIPANTES ESCOLHIDOS ALEATORIAMENTE PELA FUNÇÃO ALEATORIO
-     
+
      #2 SE O NOME NÃO ESTIVER ARMAZENADO NA ARRAY GRUPO
      #ENTÃO O NOME SERA INSERIDO E DEPOIS APAGADO DA ARRAY NOMESS
 
@@ -49,7 +49,7 @@ for i in range(cont):
                                                                                                                                               
 
 
-print(grupo)
+print("A ordem de apresentação do grupo será: " + str(grupo))
     
 
 
